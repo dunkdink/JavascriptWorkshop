@@ -27,5 +27,14 @@ function calculateMoney(){
     }))
 }
 
+swap.addEventListener('click',()=>{
+    // USD => THB || THB => USD
+    // TEMP =>USD || THB = TEMP (USD)
+    const temp = currency_one.value; //ต้นทาง
+    currency_one.value=currency_two.value;
+    currency_two.value = temp;
+    calculateMoney();
+}
+)
 
 calculateMoney();
