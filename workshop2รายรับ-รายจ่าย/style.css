@@ -106,14 +106,18 @@ input[type="text"],input[type="number"]{
 }
 .delete-btn{
     cursor: pointer;
-    background-color: red;
-    color: white;
-    border: 0;
-    font-size: 16px;
-    line-height: 16px;
-    padding: absolute;
+    background-color:red;
+    color:#fff;
+    border:0;
+    font-size:20px;
+    line-height: 20px;
+    padding: 2px 5px;
+    position: absolute;
+    top:50%;
+    left:0;
+    transform:translate(-100%,-50%);
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition:opacity 0.3s ease;
 }
 .list li:hover .delete-btn{
     opacity: 1;
