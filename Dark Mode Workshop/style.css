@@ -36,3 +36,23 @@ h2{
 .title-group{
     text-align: center;
 }
+nav{
+    position: fixed;
+    z-index: 10;
+    font-size: 22px;
+    letter-spacing: normal;
+    padding: 25px;
+    width: 100vw;
+    background: rgb(255 255 255/50%);
+}
+a{
+    margin-right: 25px;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    font-weight: bolder;
+}
+a:hover,a:focus{
+    color: var(--text-background);
+    border-bottom: 3px solid;
+}
