@@ -1,5 +1,7 @@
 # JavascriptWorkshop
-Workshop - 1 : โปรแกรมแปลงสกุลเงิน
-Workshop - 2 : Money Tracker
-Workshop - 3 : Light / Dark Mode
-Workshop - 4 : Lyric App
+<p>
+Workshop - 1 : โปรแกรมแปลงสกุลเงิน <br>
+Workshop - 2 : Money Tracker <br>
+Workshop - 3 : Light / Dark Mode <br>
+Workshop - 4 : Lyric App <br>
+<p/>
